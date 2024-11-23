@@ -43,7 +43,7 @@ export default {
         scope: ['user-read-private', 'user-read-email', 'playlist-read-private'],
         grantType: 'authorization_code',
         responseType: 'code',
-        redirectUri: 'http://localhost:3000/callback',
+        redirectUri: 'https://spotify-clone-weld-one.vercel.app/callback',
       },
     },
   },

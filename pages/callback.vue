@@ -23,7 +23,7 @@
           new URLSearchParams({
             grant_type: 'authorization_code',
             code: code,
-            redirect_uri: 'http://localhost:3000/callback', // URI de redirection
+            redirect_uri: 'https://spotify-clone-weld-one.vercel.app/callback', // URI de redirection
             client_id: '063cf8acc49e4ed6aab98275a9cc5a93', // Remplacez par votre Client ID Spotify
             client_secret: 'c8bae345051d459682d054de134f2248', // Remplacez par votre Client Secret Spotify
           }),

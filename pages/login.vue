@@ -10,7 +10,7 @@
     methods: {
       redirectToSpotify() {
         const clientId = '063cf8acc49e4ed6aab98275a9cc5a93';
-        const redirectUri = 'http://localhost:3000/callback';
+        const redirectUri = 'https://spotify-clone-weld-one.vercel.app/callback';
         const scopes = [
     'streaming', // Requis pour le SDK Spotify
     "user-read-email",
