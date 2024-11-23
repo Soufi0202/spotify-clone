@@ -1,4 +1,6 @@
 export default {
+  ssr: true, // Ensure SSR is enabled
+  target: 'server',
   modules: ['@nuxtjs/axios', '@nuxtjs/auth-next', '@nuxt/postcss8'],
 
   axios: {
